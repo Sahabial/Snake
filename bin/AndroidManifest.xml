@@ -29,7 +29,12 @@
         <activity android:label="One Touch Test"
           android:name="framework.SingleTouchTest"
           android:configChanges="keyboard|keyboardHidden|orientation" />
-        
+        <activity android:label="Multitouch test"
+            android:name="framework.MultiTouchTest"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="Key test"
+            android:name="framework.KeyTest"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
     </application>
 
 </manifest>

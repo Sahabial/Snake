@@ -51,10 +51,7 @@ public class SingleTouchTest extends Activity implements OnTouchListener{
 			
 			try {
 				Thread.sleep(16);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				
-			}
+			} catch (InterruptedException e) {}
 			
 			return true;
 		}
